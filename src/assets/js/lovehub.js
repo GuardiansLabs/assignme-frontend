@@ -44,6 +44,3 @@ $('#clock').countdown('2016/10/31').on('update.countdown', function(event) {
     + '<div><span>%M</span>min</div>'
     + '<div><span>%S</span>sec</div>'));
 });
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus()
-})
